@@ -1,4 +1,4 @@
-![NFT preview card component]()
+![NFT preview card component](https://github.com/NathanRayM/NFT-preview-card-component/blob/main/images/NFT-Screenshot.png)
 
 <h1 align="center">NFT preview card component</h1>
 
