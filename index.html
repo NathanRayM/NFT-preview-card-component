@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <!--start main section-->
+    <main>
+      <!--start main card-->
+      <div class="main-card">
+        <!--start image container-->
+        <div class="image-container">
+          <img
+            class="main-image"
+            src="images/image-equilibrium.jpg"
+            alt="Equilibrium"
+          />
+          <!--begin overlay-->
+          <div class="overlay-background">
+            <div class="overlay-image">
+              <img src="images/icon-view.svg" alt="view" />
+            </div>
+          </div>
+          <!--end overlay-->
+        </div>
+        <!--end image container-->
+        <!--start info container-->
+        <div class="info-container">
+          <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+        <!--end info container-->
+        <!--start stats container-->
+        <div class="stats-container">
+          <div class="stats-left">
+            <img src="images/icon-ethereum.svg" alt="ethereum" />
+            <p class="stats-price"><span class="price-span">0.041 ETH</span></p>
+          </div>
+          <div class="stats-right">
+            <img src="images/icon-clock.svg" alt="clock" />
+            <p class="stats-price">3 days left</p>
+          </div>
+        </div>
+        <!--end stats container-->
+        <!--start line container-->
+        <div class="line-container"><hr /></div>
+        <!--end line container-->
+        <!--start author container-->
+        <div class="author-container">
+          <img
+            class="avatar-image"
+            src="images/image-avatar.png"
+            alt="avatar"
+          />
+          <p class="line-text">
+            Creation of <span class="author-span">Jules Wyvern</span>
+          </p>
+        </div>
+        <!--end author container-->
+      </div>
+      <!--end main card-->
+    </main>
+    <!--end main section-->
+  </body>
+</html>
