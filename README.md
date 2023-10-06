@@ -4,8 +4,8 @@
 
 <div align="center">
 
-[Live]()
-| [Solution]()
+[Live](https://nathanraym.github.io/NFT-preview-card-component/)
+| [Solution](https://github.com/NathanRayM/NFT-preview-card-component.git)
 | [Challenge](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
